@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = "==1.13.1"
+keras = "==2.2.4"
+opencv-python = "*"
+matplotlib = "*"
+h5py = "==2.10.0"
+scikit-learn = "*"
+scikit-image = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
